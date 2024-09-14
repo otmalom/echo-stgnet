@@ -10,3 +10,7 @@ the official implement of paper "A spatio-temporal graph convolutional network f
 点：Data/camus_4ch/Points/46pts/adjmatrix_top5.txt
 
 其中Data是任意根目录，camus_4ch是数据集的名字，Points表示该文件夹下存储点和邻接矩阵包括：adjmatrix_topk.txt，这里k为3,5,7,13,21,33,46。另外还有point.txt，存储了密集采样的46个点。
+
+# 运行
+bash script/run.sh
+在run.sh中可以设置一些参数，比如选择骨干网络和预测器，设置运行的GPU号等
